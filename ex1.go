@@ -1,12 +1,15 @@
 package main
+
 import (
 	"log"
 	"net/http"
 )
 
-func Handler (w http.ResponseWriter, r *http.Request) {
+func Handler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("Hello, world!\n"))
 }
+
+/* here is a comment*/
 
 func main() {
 	http.HandleFunc("/", Handler)
