@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
     fmt.Println("1 + 1 = ", 1 + 1)
+	fmt.Println("Hello World")
+	fmt.Println(len("Hello World"))
 }
