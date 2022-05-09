@@ -1,11 +1,12 @@
 package main
+import "fmt"
 
-import (
-	"fmt"
-)
-
-func main() {
-    fmt.Println("1 + 1 = ", 1 + 1)
-	fmt.Println("Hello World")
-	fmt.Println(len("Hello World"))
+func main(){
+	for i:=1; i<=10; i++ {
+		if i%2 == 0 {
+			fmt.Println(i, "even") 
+		} else {
+			fmt.Println(i, "odd") 
+		}
+	}
 }
