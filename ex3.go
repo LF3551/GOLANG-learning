@@ -2,9 +2,11 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println(true && true)
-    fmt.Println(true && false)
-    fmt.Println(true || true)
-    fmt.Println(true || false)
-    fmt.Println(!true)
+    i := 10
+
+	if i > 10 {
+		fmt.Println("Big")
+	} else {
+		fmt.Println("Small")
+	}
 }

@@ -3,9 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var x string
-	x = "first "
-	fmt.Println(x)
-	x = x + "second"
-	fmt.Println(x) 
+    slice1 := []int{1,2,3}
+    slice2 := append(slice1, 4, 5)
+    fmt.Println(slice1, slice2)
 }
